@@ -1,0 +1,53 @@
+// colors
+// ===============================
+//font
+color-link       = #000
+color-link-hover = #f00
+attention-color  = #ff0001
+error-color      = #e41736
+border-color     = #e1e1e1
+primary-color    = #ab0155
+secondary-color  = #b12b6b
+hover-color      = #bb0055
+
+// background
+dialog_bk = #000001
+white_bg  = #fffffe
+dt_bk     = #d6cdd0
+
+
+// z-index
+// ===============================
+z-navi = 100
+z-popup = 1000
+z-gotoTop = 50
+
+
+
+// fonts
+// ===============================
+font = 'ヒラギノ角ゴ', serif
+
+
+
+// break point
+// ===============================
+SP = 768px
+PC-MIN = 1000px
+
+
+
+// function
+// ===============================
+half($int)
+  ($int / 2)
+
+mobile()
+  @media screen and (max-width: SP) {
+    {block}
+  }
+
+pc-min()
+  @media screen and (max-width: PC-MIN) {
+    {block}
+  }
